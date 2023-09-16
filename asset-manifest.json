@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ashyk-sabak/static/css/main.17225428.css",
+    "main.js": "/ashyk-sabak/static/js/main.c3db879a.js",
+    "static/media/usa.mp4": "/ashyk-sabak/static/media/usa.6882111c38228cbd1edc.mp4",
+    "static/media/usa.jpg": "/ashyk-sabak/static/media/usa.2f65bea70377c03045ce.jpg",
+    "index.html": "/ashyk-sabak/index.html",
+    "main.17225428.css.map": "/ashyk-sabak/static/css/main.17225428.css.map",
+    "main.c3db879a.js.map": "/ashyk-sabak/static/js/main.c3db879a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17225428.css",
+    "static/js/main.c3db879a.js"
+  ]
+}
