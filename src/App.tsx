@@ -9,9 +9,7 @@ function App() {
       <Route path="/">
         <Route path="/" element={<Navigate to="/usa" replace/>}/>
         <Route path="usa" element={<Usa/>}/>
-        {/*<Route path="*" element={<NotFoundPage/>}/>*/}
       </Route>
-      {/*<Route path="settings" element={<Settings/>}/>*/}
     </Routes>
   );
 }
