@@ -5,7 +5,6 @@ const Usa = () => {
     <div className="usa">
       <video className="usa-video" autoPlay controls muted>
         <source src={video} type="video/mp4"/>
-        Your browser does not support the video tag.
       </video>
     </div>
   )
