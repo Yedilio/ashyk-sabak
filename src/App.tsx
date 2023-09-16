@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {Navigate, Route, Routes} from "react-router-dom";
+import Usa from "./pages/Usa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/">
+        <Route path="/" element={<Navigate to="/usa" replace/>}/>
+        <Route path="usa" element={<Usa/>}/>
+        {/*<Route path="*" element={<NotFoundPage/>}/>*/}
+      </Route>
+      {/*<Route path="settings" element={<Settings/>}/>*/}
+    </Routes>
   );
 }
 

@@ -1,3 +1,7 @@
+html, body {
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,26 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.usa {
+  height: 100vh;
+  background-image: url("./assets/usa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-video {
+    border-radius: 16px;
+    border: 2px solid #070a1c;
+    width: 90%;
+
+    &:focus {
+      outline: none;
+    }
   }
 }
